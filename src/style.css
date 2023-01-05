@@ -1,0 +1,145 @@
+body {
+  overflow: auto;
+  background-color: #70a1ff;
+}
+
+/* ----Header Part Start------- */
+
+.header {
+  display:flex;
+  align-items: space-between;;
+  width:250px;
+  height:50px;
+  margin:10px 0 30px 10px;
+  border-radius: 1px 10px 20px 5px;
+  border-width: thin;
+  background-color:#5352ed;
+  color: white;
+  align-content: center;
+  
+}
+
+#logo{
+  margin: 5px;;
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+}
+
+#heading{
+  margin:5px;
+  /* align-content: center; */
+}
+
+.taskNote {
+ 
+  height: auto;
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  padding: 10px 10px;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  border-width: thin;
+  box-shadow: 2px 2px 2px 1px;
+  font-family:Comic Sans MS, Comic Sans, cursive;
+  
+}
+
+.add {
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: bolder;
+  font-size:medium;
+  
+}
+
+input{
+  /* border:1px solid red; */
+  
+  margin-left: 20px;
+  border-width: 0px 0px 3px;
+  outline: 0;
+  font-family:monospace;
+  font-weight:bold; 
+  font-size:15px 
+}
+
+.mainDiv{
+  /* border:1px solid red; */
+  overflow: auto;
+}
+
+.itemContent{
+  /* border:1px solid red; */
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  /* hyphens: auto; */
+}
+
+.Div1{
+  /* border:1px solid red; */
+  display:inline-block;
+  width:180px;
+  
+  
+}
+
+
+.Div2{
+  /* border:1px solid red; */
+  display:inline-block;
+ 
+}
+
+.Div3{
+  /* border:1px solid red; */
+  display:inline-block;
+  margin-right: 10px;
+}
+
+
+
+
+.deletebtn{
+  background-color:rgb(243, 67, 67);
+  border: 1.5px solid red ;
+  border-radius: 50%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: bold;
+  color:white;
+}
+
+
+
+.completeBtn{
+  background-color:rgb(71, 235, 156);
+  border: 1.5px solid rgb(71, 235, 156) ;
+  border-radius: 50%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: bold;
+  color:white;
+
+
+}
+
+.deleteAllBtn{
+  height:25px;
+  float:right;
+  width:80px;
+  margin-right:10px;
+  background-color:#eb3b5a;
+  border: 1px solid red ;
+  border-radius:5px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: bold;
+  color:white;
+
+}
+
